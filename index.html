@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Main</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <!-- <style type="text/css">
+        label{color:blue}
+        body{background-color: beige;}
+    </style> -->
 </head>
 <body>
+     <form method="post" action="https://fom.in.ua/echo">
+        <br><br>
+        <label for="name" style="color:rgb(161, 99, 219)">Ваше имя: </label><input type="text" placeholder="Ваше имя..." id="name">
+        <br><br>
+        <label id="date">Дата рождения</label><input type="date">
+        <br><br>
+        <label>Пароль: </label> <input type="password">
+        <br><br>
+        <label class="gender">Мужчина: </label> <input type="radio" name="gender">
+        <br>
+        <label class="gender">Женщина: </label> <input type="radio" name="gender">
+        <br><br>
+        <label>Соглашаюсь на обработку данных</label> <input type="checkbox">
+        <br>
+        <label>Я соглашаюсь на обработку персональных данных и получение рекламных материалов</label> <input type="checkbox">
+        <br>
+        <label>Я ознакомился с правилами</label> <input type="checkbox">
+        <br><br>
+        <input type="button" value="BUTTON">
+        <br><br>
+        <input type="submit" value="SUBMIT">
+
+    </form>
     <nav>
      <a href="./index.html">Главная</a>
      <a href="./Pages/contacts.html">Контакты</a>
@@ -12,8 +40,9 @@
     </nav>
     <br>
     <h1>Обо мне</h1>
+    <h2>Краткое описание о себе</h2>
     <br><br>
-    <img src="./Photo/Без названия.jpg" width="400" height="500">
+    <img src="./Photo/Без названия.jpg" width="300" height="300">
     <br>
     <p>Меня зовут Анна. Я изучаю тестирование и веб разработку. <br> Ipsum consequatur maiores repellendus nostrum deleniti neque sequi! Nemo, assumenda.</p>
 </body>

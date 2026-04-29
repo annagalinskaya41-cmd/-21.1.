@@ -1,0 +1,11 @@
+ label{color:blue}
+ body{background-color: beige;}
+ h1{color:brown}
+ h2{color:blueviolet}
+ p{color:rgb(24, 173, 173)}
+ *{font-size: 20px;}
+ label{color:rgb(0, 21, 255)}
+        body{background-color:rgb(228, 241, 194);}
+        #date{color:rgb(172, 7, 7);}
+        .gender{color:rgb(98, 248, 18)}
+        *{font-size: 20px;}
